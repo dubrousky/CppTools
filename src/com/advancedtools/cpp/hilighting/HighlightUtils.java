@@ -16,6 +16,7 @@ import com.intellij.openapi.editor.markup.RangeHighlighter;
 import com.intellij.openapi.editor.markup.TextAttributes;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.IconLoader;
+import com.intellij.openapi.util.InvalidDataException;
 import com.intellij.openapi.util.Key;
 import com.intellij.util.containers.HashMap;
 import com.intellij.psi.PsiFile;
@@ -55,7 +56,7 @@ public class HighlightUtils {
   private static TextAttributesKey[] ourAttributes = new TextAttributesKey[20];
   @NonNls
   static final String OK_ANALIZE_COMMAND_RESPONSE = "<OK:analyze";
-  public static final TextAttributesKey UNDEFINED_KEY = new TextAttributesKey();
+  public static final TextAttributesKey UNDEFINED_KEY = TextAttributesKey.createTextAttributesKey("undefined");
   private static Key<HighlightCommand> ourCurrentHighlightingCommandKey = Key.create("last.hilighting.command");
   public static final boolean debug = Communicator.isDebugEnabled;
   static final long start = System.currentTimeMillis();

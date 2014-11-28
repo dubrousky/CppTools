@@ -67,9 +67,7 @@
       </profile>
     </annotationProcessing>
   </component>
-  <component name="CopyrightManager" default="">
-    <module2copyright />
-  </component>
+  <component name="CopyrightManager" default="" />
   <component name="CppTools.Loader" reportImplicitCastToBool="false" reportNameReferencedOnce="false" warnedAboutFileOutOfSourceRoot="true" version="3" currentProject="$PROJECT_DIR$/testData/project_files/A.dsp" compilerSelect="AUTO">
     <ignored-file path="C:\MinGW\1.0\home\Maxim\CF-C\idea\testData\completion\A.cpp" />
   </component>
@@ -89,6 +87,9 @@
     <option name="DEPRECATION" value="false" />
     <option name="ADDITIONAL_OPTIONS_STRING" value="" />
     <option name="MAXIMUM_HEAP_SIZE" value="128" />
+  </component>
+  <component name="EmacsSettings">
+    <option name="emacsPath" value="/usr/bin/emacs" />
   </component>
   <component name="EmbeddedBrowser.BrowserComponent" show="false" xPos="680" yPos="790" width="600" height="200" />
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
@@ -332,5 +333,14 @@
       </value>
     </option>
   </component>
+  <component name="libraryTable">
+    <library name="junit-4.11">
+      <CLASSES>
+        <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/" />
+        <root url="jar://$APPLICATION_HOME_DIR$/lib/junit.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
 </project>
-

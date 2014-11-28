@@ -11,7 +11,7 @@
     </copy>
 
     <copy todir="${idea.sandbox.home.path}/plugins/CppTools" >
-       <fileset dir="${project.path}/../DOC" includes="readme.*"/>
+       <fileset dir="${project.path}/.." includes="readme.*"/>
     </copy>
 
     <mkdir dir="${idea.sandbox.home.path}/plugins/CppTools/META-INF" />
